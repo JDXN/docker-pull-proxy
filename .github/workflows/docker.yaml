@@ -7,10 +7,10 @@ on:
   #   branches: [ main ]
 
 env:
-  REGISTRY: registry.cn-hangzhou.aliyuncs.com
-  ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
-  ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
-  MM_NOTIFY_URL: "${{ secrets.MM_NOTIFY_URL }}"
+  REGISTRY: registry.cn-shenzhen.aliyuncs.com
+  ALIYUN_REGISTRY_USER: "${{ user }}"
+  ALIYUN_REGISTRY_PASSWORD: "${{ pwd }}"
+  MM_NOTIFY_URL: "${{ https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=cd1b63c4-7b2c-4ec5-ac83-72e6b7151242 }}"
 
 jobs:
 
